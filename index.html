@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grocery Compare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar"><div class="wrap bar-in">
+  <div class="logo">Grocery<span>Compare</span></div>
+  <button class="btn" id="jump">My list <b class="badge" id="count">0</b></button>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1><span class="g">Compare</span> your whole shop, not just one item</h1>
+    <p>Add what you need, see the total at Checkers, Pick n Pay, Spar and Woolworths, and get the best way to split your shop.</p>
+    <input id="q" class="field" type="search" placeholder="Search milk, bread, dishwashing liquid..." aria-label="Search products" autocomplete="off">
+  </section>
+
+  <section class="controls">
+    <div class="chips" id="cats" aria-label="Categories"></div>
+    <div class="row">
+      <div class="chips" id="stores" aria-label="Stores to compare"></div>
+      <select id="sort" class="field sel" aria-label="Sort">
+        <option value="name">Name A to Z</option>
+        <option value="save">Biggest saving</option>
+        <option value="low">Lowest price</option>
+      </select>
+    </div>
+    <details class="field branches" id="br"><summary>Branches and loyalty cards</summary>
+      <div id="brbody"></div>
+      <button class="btn ghost" id="geo">Use my location</button> <span class="note" id="geomsg"></span>
+    </details>
+    <p class="note" id="upd"></p>
+  </section>
+
+  <p class="sr" id="status" role="status"></p>
+  <div class="layout">
+    <section id="grid" class="grid"></section>
+    <aside class="panel" id="panel">
+      <h2><span class="o">My</span> list</h2>
+      <div id="items"></div>
+      <div id="totals" aria-live="polite"></div>
+      <div id="split"></div>
+      <div class="actions"><button class="btn" id="copy">Copy list</button><button class="btn ghost" id="clear">Clear list</button></div>
+    </aside>
+  </div>
+</main>
+<footer class="wrap note foot">Prices are samples until the real price feed is connected. Loyalty prices need that store's card.</footer>
+<script src="data/data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

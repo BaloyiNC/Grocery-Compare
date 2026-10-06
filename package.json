@@ -1,0 +1,3 @@
+{"name":"grocery-compare","version":"0.3.0","private":true,
+ "scripts":{"import":"node tools/import.js","validate":"node tools/validate.js","build-data":"node tools/import.js && node tools/validate.js","test":"node tests/app.test.js"},
+ "devDependencies":{"jsdom":"^26.0.0"}}
