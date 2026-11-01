@@ -1,0 +1,35 @@
+id,name,category,size,divisor,unit,brand,barcode,store,offer_price,offer_until,source_url
+1,Koo Baked Beans in Tomato Sauce,Pantry,Size not stated,1,/offer,Koo,,Checkers,15.99,2026-11-08,https://my-catalogue.co.za/checkers-specials
+2,Blue Ribbon White Thick Sliced Toaster Bread,Bakery,Size not stated,1,/offer,Blue Ribbon,,Checkers,17.99,2026-11-08,https://my-catalogue.co.za/checkers-specials
+3,Sasko Low GI Dumpy Brown/White Bread,Bakery,Size not stated,1,/offer,Sasko,,Checkers,24.99,2026-11-08,https://my-catalogue.co.za/checkers-specials
+4,Handy Andy,Household,Size not stated,1,/offer,Handy Andy,,Checkers,25.99,2026-11-08,https://my-catalogue.co.za/checkers-specials
+5,Red Bull Energy Drink,Pantry,Size not stated,1,/offer,Red Bull,,Checkers,29.00,2026-11-08,https://my-catalogue.co.za/checkers-specials
+6,Liqui Fruit 100% Fruit Juice Blend all variants,Pantry,Size not stated,1,/offer,Liqui Fruit,,Checkers,29.99,2026-11-08,https://my-catalogue.co.za/checkers-specials
+7,Bakers Eet-Sum-Mor Shortbread Biscuits All Variants,Pantry,Size not stated,1,/offer,Bakers,,Checkers,29.99,2026-11-08,https://my-catalogue.co.za/checkers-specials
+8,Darling Full Cream/2% Medium Fat Fresh Milk,Dairy,Size not stated,1,/offer,Darling,,Checkers,29.99,2026-11-08,https://my-catalogue.co.za/checkers-specials
+9,Fatti's & Moni's Macaroni/Spaghetti 500g,Pantry,500 g,1,/offer,Fatti's & Moni's,,Checkers,30.00,2026-11-08,https://my-catalogue.co.za/checkers-specials
+10,Dettol Bath Soap,Household,Size not stated,1,/offer,Dettol,,Checkers,30.00,2026-11-08,https://my-catalogue.co.za/checkers-specials
+11,Fritos Corn Chips,Pantry,Size not stated,1,/offer,Fritos,,Checkers,30.00,2026-11-08,https://my-catalogue.co.za/checkers-specials
+12,Oreo biscuits,Pantry,Size not stated,1,/offer,Oreo,,Checkers,30.00,2026-11-08,https://my-catalogue.co.za/checkers-specials
+13,PnP Full Cream or Low Fat Fresh Milk 2 Litre,Dairy,2 L,2,/L,PnP,,Pick n Pay,29.99,2026-11-08,https://my-catalogue.co.za/pick-n-pay-specials/catalogue-231615-0
+14,Blue Ribbon Classic White Sliced Bread 700g,Bakery,700 g,7,/100 g,Blue Ribbon,,Pick n Pay,17.49,2026-11-08,https://my-catalogue.co.za/pick-n-pay-hypermarket-specials/catalogue-231438-0
+15,Sasko Premium Slices Brown Bread 700g,Bakery,700 g,7,/100 g,Sasko,,Pick n Pay,14.99,2026-11-08,https://my-catalogue.co.za/pick-n-pay-specials/catalogue-231615-0
+16,Snowflake Corn Flour 250g,Bakery,250 g,2.5,/100 g,Snowflake,,Pick n Pay,14.99,2026-11-08,https://my-catalogue.co.za/pick-n-pay-specials/catalogue-231615-0
+17,Knorr Cook-in Sauce Assorted,Pantry,Size not stated,1,/offer,Knorr,,Pick n Pay,15.99,2026-11-08,https://my-catalogue.co.za/pick-n-pay-specials/catalogue-231615-0
+18,PnP Carrots Julienne 250g,Pantry,250 g,2.5,/100 g,PnP,,Pick n Pay,15.99,2026-11-08,https://my-catalogue.co.za/pick-n-pay-specials/catalogue-231615-0
+19,PnP Cultured Buttermilk 500ml,Dairy,500 ml,0.5,/L,PnP,,Pick n Pay,16.99,2026-11-08,https://my-catalogue.co.za/pick-n-pay-specials/catalogue-231615-0
+20,Vanilla Flavoured Custard,Dairy,Size not stated,1,/offer,Woolworths,,Woolworths,26.99,2026-11-08,https://my-catalogue.co.za/products/custard?store=woolworths
+21,Cake Wheat Flour,Bakery,Size not stated,1,/offer,Woolworths,,Woolworths,29.99,2026-11-08,https://my-catalogue.co.za/products/flour?store=woolworths
+22,Smiley Biscuits,Pantry,Size not stated,1,/offer,Woolworths,,Woolworths,30.00,2026-11-08,https://my-catalogue.co.za/products/biscuits?store=woolworths
+23,ALL GOLD Tomato Sauce,Pantry,Size not stated,1,/offer,All Gold,,Woolworths,31.99,2026-11-08,https://my-catalogue.co.za/products/tomato-sauce?store=woolworths
+24,Parboiled Long Grain White Rice,Pantry,Size not stated,1,/offer,Woolworths,,Woolworths,31.99,2026-11-08,https://my-catalogue.co.za/products/rice-3532?store=woolworths
+25,WHITE STAR SUPER MAIZE MEAL,Pantry,Size not stated,1,/offer,White Star,,Woolworths,31.99,2026-11-08,https://my-catalogue.co.za/products/maize-meal?store=woolworths
+26,Icing or Castor Sugar,Pantry,Size not stated,1,/offer,Woolworths,,Woolworths,34.99,2026-11-08,https://my-catalogue.co.za/products/sugar?store=woolworths
+27,MRS BALL'S CHUTNEY,Pantry,Size not stated,1,/offer,Mrs Ball's,,Woolworths,34.99,2026-11-08,https://my-catalogue.co.za/products/chutney?store=woolworths
+28,Rice or Corn Cakes,Pantry,Size not stated,1,/offer,Woolworths,,Woolworths,34.99,2026-11-08,https://my-catalogue.co.za/products/cake?store=woolworths
+29,Fanta Sprite or Stoney,Pantry,Size not stated,1,/offer,Woolworths,,Woolworths,38.00,2026-11-08,https://my-catalogue.co.za/products/sprite?store=woolworths
+30,Assorted Bread Sandwich Thins,Bakery,Size not stated,1,/offer,Woolworths,,Woolworths,40.00,2026-11-08,https://my-catalogue.co.za/products/bread?store=woolworths
+31,W.LAB All Purpose Cleaner,Household,Size not stated,1,/offer,W.LAB,,Woolworths,44.00,2026-11-08,https://my-catalogue.co.za/products/cleaner?store=woolworths
+32,Sasko White Bread,Bakery,Size not stated,1,/offer,Sasko,,Spar,17.99,2026-11-08,https://my-catalogue.co.za/products/bread?store=spar
+33,Blue Ribbon Classic White Sliced Bread,Bakery,Size not stated,1,/offer,Blue Ribbon,,Spar,17.99,2026-11-08,https://my-catalogue.co.za/products/bread?store=spar
+34,Milk (product/size not specified),Dairy,Size not stated,1,/offer,Not specified,,Spar,29.99,2026-11-08,https://my-catalogue.co.za/products/milk?store=spar

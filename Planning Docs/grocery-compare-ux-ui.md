@@ -1,6 +1,6 @@
 # Grocery Compare: UX and UI Guide
 
-This document explains how the Grocery Compare website is designed and how the front end is built, so the data side can plug into it easily. The front end is three files: `index.html`, `style.css` and `script.js`. It currently runs on sample prices.
+This document explains how the Grocery Compare website is designed and how the front end is built, so the data side can plug into it easily. The front end is three files: `index.html`, `style.css` and `script.js`. It currently displays dated My Catalogue offers; regular shelf prices and complete basket comparisons are not yet available.
 
 ## 1. The goal
 
@@ -32,14 +32,14 @@ The style is inspired by the Foodnoms design system: a bright white page, soft g
 
 | Token | Value | Used for |
 | --- | --- | --- |
-| Ember Orange | `#ff5406` | Buttons, active chips, active add button, the word "My" in the list title |
-| Verdant Green | `#00b33f` | Cheapest prices, savings, the word "Compare" in the main headline |
+| Accessible Orange | `#a93600` | Buttons, active chips, active add button, the word "My" in the list title |
+| Accessible Green | `#176b2c` | Cheapest prices, savings, the word "Compare" in the main headline |
 | Graphite | `#2f2f2f` | Main text |
 | Fog | `#f5f5f5` | Card and input backgrounds |
 | Paper White | `#ffffff` | Page background, price rows inside cards |
 | Store dots | `#00a9dd` Checkers, `#5856de` Pick n Pay, `#bd4be5` Spar, `#2f2f2f` Woolworths | Small colored dot next to each store name |
 
-Corner radius is 26px on every card, button, chip and input. Please keep it consistent. The font is DM Sans (weights 500, 600 and 700), which stands in for the paid font used by the original style. The page headline uses 60px bold on desktop and scales down on phones, section titles are 22px bold, body text is 17px, and small captions are 12 to 14px. Spacing uses steps of 8px. The maximum page width is 1200px.
+Corner radius is 26px on every card, button, chip and input. Please keep it consistent. Light-mode orange and green are darkened to meet WCAG AA contrast for small text; dark mode uses its own high-contrast green and amber focus outline. The font is DM Sans (weights 500, 600 and 700), which stands in for the paid font used by the original style. The page headline uses 60px bold on desktop and scales down on phones, section titles are 22px bold, body text is 17px, and small captions are 12 to 14px. Spacing uses steps of 8px. The maximum page width is 1200px.
 
 A few rules keep the look clean. Use no box shadows and no gradients. Do not put colored text on a colored background. Use green only for good news such as the cheapest price and savings, and orange only for actions. Dark mode is built in and follows the user's device setting through CSS variables at the top of `style.css`.
 
@@ -79,9 +79,9 @@ The page reads one array called `I` at the top of `script.js`. Each product look
 }
 ```
 
-The most important job is product matching. A card only makes sense when the same product at each store is the same size and type, so matching by barcode or a careful name and size match matters more than the number of products. If a store does not stock an item, the current code expects a price for every store, so a missing price needs to be handled. A simple fix is to skip the store for that item and show "Not available" in its row. This change is needed in `card()` and in the totals code before real data goes live.
+The most important job is product matching. A card only makes sense when the same product at each store is the same size and type, so matching by barcode or a careful name and size match matters more than the number of products. The current catalogue-offer mode shows a retailer's listed offer only and labels other retailers "No listed offer"; that does not mean they do not stock the item. Offer-only rows are not combined into a cross-store comparison unless the exact product and size are verified.
 
-Other things the UI is ready for once the data exists are a "Prices last updated" label (there is a note under the controls where it can go), a store location setting (prices depend on the branch), and later price history and price drop alerts.
+Regular price comparisons, branch settings and loyalty prices are available only when verified data for them is supplied. Catalogue-offer mode shows its capture date, source links and offer end dates instead.
 
 ## 7. File guide
 

@@ -17,8 +17,8 @@
 
 <main class="wrap">
   <section class="hero">
-    <h1><span class="g">Compare</span> your whole shop, not just one item</h1>
-    <p>Add what you need, see the total at Checkers, Pick n Pay, Spar and Woolworths, and get the best way to split your shop.</p>
+    <h1><span class="g">Compare</span> current grocery offers</h1>
+    <p>Browse dated catalogue offers from Checkers, Pick n Pay, SPAR and Woolworths. Regular shelf prices and complete basket comparisons are not available yet.</p>
     <input id="q" class="field" type="search" placeholder="Search milk, bread, dishwashing liquid..." aria-label="Search products" autocomplete="off">
   </section>
 
@@ -41,7 +41,7 @@
 
   <p class="sr" id="status" role="status"></p>
   <div class="layout">
-    <section id="grid" class="grid"></section>
+    <section id="grid" class="grid"><noscript><p class="empty">Grocery Compare needs JavaScript to show prices.</p></noscript></section>
     <aside class="panel" id="panel">
       <h2><span class="o">My</span> list</h2>
       <div id="items"></div>
@@ -51,7 +51,7 @@
     </aside>
   </div>
 </main>
-<footer class="wrap note foot">Prices are samples until the real price feed is connected. Loyalty prices need that store's card.</footer>
+<footer class="wrap note foot">Prices shown are catalogue offers, not regular shelf prices. Offers may not apply at every branch, and sizes not shown are marked as unspecified. Follow each source link to verify the offer before shopping. Your list stays on your device. Outside requests load DM Sans from Google Fonts and open source links only when selected.</footer>
 <script src="data/data.js"></script>
 <script src="script.js"></script>
 </body>

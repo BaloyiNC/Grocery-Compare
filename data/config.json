@@ -1,0 +1,20 @@
+{
+  "updated": "2026-11-01",
+  "sampleData": false,
+  "dataMode": "catalogue-offers",
+  "stores": ["Checkers", "Pick n Pay", "Spar", "Woolworths"],
+  "colors": {
+    "Checkers": "#00a9dd",
+    "Pick n Pay": "#5856de",
+    "Spar": "#bd4be5",
+    "Woolworths": "#2f2f2f"
+  },
+  "cards": {
+    "Checkers": "Xtra Savings",
+    "Pick n Pay": "Smart Shopper",
+    "Spar": "Rewards",
+    "Woolworths": "WRewards"
+  },
+  "categories": ["All", "Dairy", "Bakery", "Pantry", "Household"],
+  "branches": {}
+}
